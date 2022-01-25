@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        h1::before{
+            color:rgb(255, 0, 85);
+            content: "Hello";
+            font-size: 30px;
+        }
+        h1:hover{
+            color: rgb(111, 185, 0);
+            font-size: 40px;
+            background-color: orange;
+            
+        }
+        input:focus{
+            font-weight: 500px;
+            color: blue;
+            font-size: 20px;
+        }
+        li:nth-child(2n+1){
+            background-color: rgb(0, 131, 11);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Dhaka</h1>
+    <h1>Pabna</h1>
+    <h1>Bangladesh</h1>
+    <input name="email" type="text">
+    <br>
+    <input name="password" type="text">
+    <ul>
+        <li>Abc</li>
+        <li>Bcd</li>
+        <li>Cde</li>
+        <li>Efg</li>
+    </ul>
+</body>
+</html>
